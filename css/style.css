@@ -29,6 +29,22 @@ body {
     position: relative;
 }
 
+.monfavs-container {
+    height: 100vh;
+
+    background: url('../images/whiskeybottles.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
 .opaque-overlay {
     position: absolute;
     top: 0;
@@ -198,4 +214,23 @@ body {
     font-weight: bold;
     margin-top: 10px;
     color: #f05f40;
+}
+
+/* Monthly Favorites */
+.monthly-favs {
+    color: white;
+}
+
+.top5-whiskeys {
+    color: #f05f40; 
+}
+
+.top5-whiskeys h3 {
+    color:yellow;
+    font-weight: bold;
+    background-color: darkslategray;
+}
+
+.table {
+    background-color: #544600;
 }
